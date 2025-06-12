@@ -35,3 +35,10 @@ edit ecoflow.go to change those if you want.
     ./ecogo tou      # Switch to ToU mode with a 45% backup reserve
     ./ecogo selfpow  # Self-powered mode with a 70% backup reserve
 
+# Seeing the device status
+
+You can dump all of the ecoflow parameters to JSON format by running
+
+    ./ecoflow check
+
+
